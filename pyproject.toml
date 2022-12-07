@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "yellow-taxi-trip"
+version = "0.1.0"
+description = ""
+authors = ["Erikas <erikasa32@gmail.com>"]
+readme = "README.md"
+packages = [{include = "yellow_taxi_trip"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
